@@ -1,0 +1,8 @@
+12/07/2021
+
+Azure Functions
+Azure App Service
+Azure Spring Cloud
+
+AKS(Azure Kubernate Service)
+Azure virtual machines

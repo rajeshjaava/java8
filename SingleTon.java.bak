@@ -1,0 +1,16 @@
+/* SingleTon class 
+1. class implements clonable interface and throws cnsf
+2.private constructor
+3.static instance object
+4.static factory method to create object
+if(obj==null){
+	new Sing()
+	}return obj;
+*/
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+import java.io.*;
+import java.util.stream.*;
+public class Stream 
+{
+	public static void main(String[] args) 
+	{
+		List<String> str = new ArrayList<>();
+		str.add("abc1");
+		str.add("aaa1");
+		str.stream().filter((a)->a.startsWith("ab")).forEach(System.out::print);
+
+		List numbers = Arrays.asList(1, 2, 3, 4, 5);
+		List a=numbers.stream().filter(number -> number % 2 == 0).collect(Collectors.toList());
+		System.out.println(a);
+
+	}
+}
